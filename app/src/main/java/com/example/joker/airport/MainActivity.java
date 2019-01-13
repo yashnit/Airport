@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         mAuth=FirebaseAuth.getInstance();
         emailText=findViewById(R.id.emailId);
         passText=findViewById(R.id.passId);
-        login=findViewById(R.id.button);
+        login=findViewById(R.id.loginId);
         mUser=mAuth.getCurrentUser();
 
         login.setOnClickListener(new View.OnClickListener() {
